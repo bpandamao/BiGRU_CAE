@@ -1,6 +1,5 @@
 ### generate 1000 signals with ln(m1) uniform in ln(1e6+-1e5)
 import numpy as np
-from scipy.fft import irfft
 from LISA_utils import FFT, freq_PSD, inner_prod
 
 # from lisatools.sensitivity import get_sensitivity
@@ -28,7 +27,7 @@ def waveform(params,t):
 ss=1000
 a = 5e-21+(1e-21)*np.random.uniform(-1,1,ss)
 f = 1e-3+(1e-6)*np.random.uniform(-1,1,ss)
-fdot = 1e-8+(1e-9)*np.random.uniform(-1,1,ss)
+fdot = 1e-8+(1e-12)*np.random.uniform(-1,1,ss)
 sig_toy=np.zeros((ss, 51840))
 snr=np.zeros(ss)
 
