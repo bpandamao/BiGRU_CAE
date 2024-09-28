@@ -12,9 +12,9 @@ $h(t;a,f,\dot{f},\epsilon) = a \sin (2\pi t[f + 0.5\dot{f}t])$
 
 | parameter | default_value | training_range|
 |-----------|------------|--------------------|
-| $\dot{f}$ | $10^{-8}$  | uniform$10^{-12}$|
-| $a$ | $5\cdot 10^{-21}$  |uniform$10^{-21}$|
-| $f$ | $10^{-3}$  | uniform$10^{-6}$|
+| $\dot{f}$ | $10^{-8}$  | $U10^{-12}$|
+| $a$ | $5\cdot 10^{-21}$  |$U10^{-21}$|
+| $f$ | $10^{-3}$  | $U10^{-6}$|
 
 ## Code structure
 **Models**
