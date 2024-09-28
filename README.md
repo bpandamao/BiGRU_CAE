@@ -8,7 +8,7 @@ Here, we demonstrate the process of training BGR-CAE for the toy model signal wi
 
 We chose a toy model that describes a chirping waveform.
 
-$h(t;a,f,\dot{f},\epsilon) = a \sin (2\pi t[f + 1/2\dot{f}t])$
+$h(t;a,f,\dot{f},\epsilon) = a \sin (2\pi t[f + 0.5\dot{f}t])$
 
 | parameter | default_value | training_range|
 |-----------|------------|--------------------|
