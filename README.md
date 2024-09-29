@@ -3,6 +3,8 @@
 
 The Laser Interferometer Space Antenna (LISA) data stream will contain gaps with missing or unusable data due to antenna repointing, orbital corrections, instrument malfunctions, and unknown random processes.  We introduce a new deep learning model to impute data gaps in the LISA data stream.  The stacked hybrid autoencoder combines a denoising convolutional autoencoder (DCAE) with a bi-directional gated recurrent unit (BiGRU).  The DCAE is used to extract relevant features in the corrupted data, while the BiGRU captures the temporal dynamics of the gravitational-wave signals. 
 
+![BGR-CAE model structure. The left dashed box represents the training of DCAE. The blue line represents the data flow for the training of the hybrid model with BiGRU layers in the decoder. The black dashed line represents the processing of the observed data stream with gaps in our purposed BGR-CAE model.](model_structure.jpg)
+
 
 Here, we demonstrate the process of training BGR-CAE for the toy model signal with gaps.
 
