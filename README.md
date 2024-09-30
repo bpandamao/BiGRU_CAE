@@ -35,6 +35,6 @@ Parameter estimation through MCMC is considered to test the performance of the r
 1. Install Anaconda if you do not have it.
 2. Create a virtual environment using:
 ```
-conda create -n BGR_CAE_trial -c conda-forge numpy scipy matplotlib jupyter torch sklearn random
+conda create -n BGR_CAE_trial -c conda-forge numpy scipy matplotlib jupyter torch scikit-learn random corner tqdm statsmodels
 conda activate BGR_CAE_trial
 ```
