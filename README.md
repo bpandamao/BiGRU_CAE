@@ -28,7 +28,7 @@ Contains two notebooks to train BGR-CAE:
 2. to train bi-GRU: Training data can be generated in [training/train_dcae.ipynb](https://github.com/bpandamao/BGR_CAE/blob/main/training/train_dcae.ipynb) or the notebook directly after importing the DCAE model.
 
 **evaluation**
-Parameter estimation through MCMC is considered to test the performance of the recovery of the signal with gaps, see [evaluation/parameter_estimation_MCMC.ipynb](https://github.com/bpandamao/BGR_CAE/evaluation/parameter_estimation_MCMC.ipynb)
+Parameter estimation through MCMC is considered to test the performance of the recovery of the signal with gaps, see [evaluation/parameter_estimation_MCMC.ipynb](https://github.com/bpandamao/BGR_CAE/blob/main/evaluation/parameter_estimation_MCMC.ipynb)
 
 
 ## Get started
