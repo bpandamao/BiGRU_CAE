@@ -18,6 +18,12 @@ $h(t;a,f,\dot{f},\epsilon) = a \sin (2\pi t[f + 0.5\dot{f}t])$
 | $a$ | $5\cdot 10^{-21}$  |$10^{-21}$|
 | $f$ | $10^{-3}$  | $10^{-6}$|
 
+## Paper
+
+Our research paper is available on arXiv: [A novel stacked hybrid autoencoder for imputing LISA data gaps]([https://arxiv.org/abs/2410.05571]).
+
+
+
 ## Code structure
 **Models**
 Contains the method to generate data and gaps, as well as the setting for DCAE and Bi-GRU;
