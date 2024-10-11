@@ -20,7 +20,7 @@ $h(t;a,f,\dot{f},\epsilon) = a \sin (2\pi t[f + 0.5\dot{f}t])$
 
 ## Paper
 
-Our research paper is available on arXiv: [A novel stacked hybrid autoencoder for imputing LISA data gaps]([https://arxiv.org/abs/2410.05571]).
+Our research paper is available on arXiv: [A novel stacked hybrid autoencoder for imputing LISA data gaps](https://arxiv.org/abs/2410.05571).
 
 
 
